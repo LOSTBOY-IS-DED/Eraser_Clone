@@ -38,7 +38,6 @@ function Dashboard() {
 
   return (
     <div>
-      Dashboard
       <Button>
         <LogoutLink>Logout</LogoutLink>
       </Button>
