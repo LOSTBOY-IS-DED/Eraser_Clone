@@ -7,7 +7,7 @@ function SideNav() {
   const { user }: any = useKindeBrowserClient();
 
   return (
-    <div className="bg-gray-100 h-screen fixed w-72 border-r p-6">
+    <div className=" h-screen fixed w-72 border-r border-[1px] p-6">
       <SideNavTopSection user={user} />
     </div>
   );
